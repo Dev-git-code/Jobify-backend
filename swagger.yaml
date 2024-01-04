@@ -22,12 +22,12 @@ paths:
               allOf:
               - $ref: '#/components/schemas/registeruserrequest'
               - example:
-                  name: shubham
-                  email: shubham@gmail.com
+                  name: john
+                  email: john@gmail.com
                   password: secret
             example:
-              name: shubham
-              email: shubham@gmail.com
+              name: john
+              email: john@gmail.com
               password: secret
         required: true
       responses:
@@ -51,12 +51,12 @@ paths:
               allOf:
               - $ref: '#/components/schemas/loginuserrequest'
               - example:
-                  name: shubham
-                  email: shubham@gmail.com
+                  name: john
+                  email: john@gmail.com
                   password: secret
             example:
-              name: shubham
-              email: shubham@gmail.com
+              name: john
+              email: john@gmail.com
               password: secret
         required: true
       responses:
