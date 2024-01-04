@@ -188,8 +188,8 @@ components:
         password:
           type: string
       example:
-        name: shubham
-        email: shubham@gmail.com
+        name: john
+        email: john@gmail.com
         password: secret
     registeruserrequest:
       title: registeruserrequest
@@ -206,8 +206,8 @@ components:
         password:
           type: string
       example:
-        name: shubham
-        email: shubham@gmail.com
+        name: john
+        email: john@gmail.com
         password: secret
     CreateJobRequest:
       title: CreateJobRequest
